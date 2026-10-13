@@ -10,4 +10,4 @@ VideoSpace is a Chrome extension that moves a fullscreen YouTube video's tab int
 
 **Page access.** VideoSpace runs only on `https://www.youtube.com/*`, and only to detect when the video player requests fullscreen. It does not read, store or modify page content.
 
-**Contact.** Questions: YOUR_CONTACT_EMAIL
+**Contact.** Questions: apurvtaneja21@gmail.com

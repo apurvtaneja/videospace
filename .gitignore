@@ -2,3 +2,4 @@ node_modules/
 dist/
 *.zip
 .e2e-out/
+.DS_Store

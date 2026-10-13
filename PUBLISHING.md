@@ -14,7 +14,7 @@ All the listing text you need is in `store/listing.md`, ready to paste.
 
 ## 2. Host the privacy policy
 
-1. Open `store/privacy-policy.md` and replace `YOUR_CONTACT_EMAIL` with the address you want to show publicly.
+1. `store/privacy-policy.md` lists the public contact email. Update it there if it changes.
 2. Publish it somewhere with a public URL:
    - **GitHub Gist:** create a public gist, paste the file and copy the URL.
    - **GitHub Pages:** if the repo is public, enable Pages and use the file's URL.
