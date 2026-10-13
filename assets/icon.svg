@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Chrome icon guidelines: ~96px of artwork inside the 128px canvas -->
+  <g transform="translate(8 8) scale(0.875)">
+  <!-- the Space behind -->
+  <rect x="36" y="14" width="80" height="62" rx="14" fill="url(#back)"/>
+  <!-- the video's own Space in front -->
+  <rect x="12" y="44" width="86" height="68" rx="15" fill="url(#front)" filter="url(#shadow)"/>
+  <path d="M46 63.5v29a3 3 0 0 0 4.5 2.6l24-14.5a3 3 0 0 0 0-5.2l-24-14.5a3 3 0 0 0-4.5 2.6z" fill="#fff"/>
+  </g>
+</svg>

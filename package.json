@@ -1,0 +1,22 @@
+{
+  "name": "videospace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fullscreen YouTube videos open in their own macOS Space, and the tab slides back into its window when you exit.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "assets": "node scripts/render-assets.mjs",
+    "package": "npm run typecheck && npm test && npm run build && rm -f videospace-$npm_package_version.zip && cd dist && zip -qrX ../videospace-$npm_package_version.zip . && cd .. && echo \"Created videospace-$npm_package_version.zip\""
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.5",
+    "esbuild": "0.28.2",
+    "puppeteer": "25.13.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.4"
+  }
+}
